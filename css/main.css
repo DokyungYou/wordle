@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 7px;
+}
+
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 58px;
+  height: 58px;
+  border: 2.5px solid rgb(211, 214, 218);
+}
